@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin:0;
+}
+.wrap{
+    background-color: #34ace0;
+}
+body{
+    font-family: sans-serif;
+     font-weight: normal;
+}
+.login{
+    color: #fff;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+.marker i{
+    color: #fff;
+    padding: 0px 20px 0px 10px;
+}
+.login a{
+    text-decoration: none;
+}
+.banner{
+    background-color: #ee5253;
+    width:95%;
+    padding: 20px 40px 0px 0px;
+    height:auto;
+}
+.banner-red img{
+    width: 100%;
+  z-index: auto;
+}
+.cheff img{
+    border-radius: 10px;
+	width:100%;
+}
+.stories{
+    margin-top: 10%;
+    text-align: center;
+    padding:20px 20px 80px 20px;
+}
+.test img{
+   margin-top:4%;
+}
+.stories h4{
+    font-size: 35px;
+    color:#192a56;
+    font-weight: bolder;
+}
+.stories p{
+    color: gray;
+}
+input{
+    width:40%;
+    padding:8px;
+    background-color: #273c75;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+::placeholder{
+    color: #fff;
+    text-align: center;
+}
+.sub{
+    position: relative;
+left: -6.5%;
+color: #fff;
+padding: 5px;
+outline: none;
+border: none;
+background-color: #eb3b5a;
+border-radius: 10px;
+}
+.events h4{
+    color: #273c75;
+    font-weight: bolder;
+    padding:20px;
+}
+.box{
+    border: 2px solid #eb3b5a;
+border-radius: 4px;
+text-align: center;
+color: #0c2461;
+padding: 0px 10px 0px 10px;
+}
+
+.wrap-tester {
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+.icons-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    width: 120px;
+    max-height: 200px;
+    margin-left: 20px;
+}
+
+.jumbotron {
+    width: 80%;
+    padding: 10px 20px 10px 0px;
+    margin: auto;}
+    .test img{
+     border-radius: 10px;
+    }
+    footer{
+        background-color: black;
+        padding:40px;
+        margin-top:10px;
+        color: #fff;
+    }
+    ul{
+        list-style: none;
+    }
+    footer a{
+        color: #fff;
+        font-size: 14px;
+        text-decoration: 4none;
+    }
+    
+    footer a:hover{
+        text-decoration: none;
+        color: #ee5253;
+    }
+	@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .icons-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding: 20px 0px 20px 10px;
+    width: 120px;
+    max-height: 200px;
+    margin-left: 20px;
+}}
+@media only screen and (max-width:576px){
+    
+.icons-box{
+    padding:20px 0px 20px 0px;
+}
+
+}
+
+
+
+
+
